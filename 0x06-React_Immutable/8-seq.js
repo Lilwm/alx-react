@@ -10,7 +10,7 @@ const printBestStudents = (object) => {
     student.lastName = student.lastName.charAt(0).toUpperCase() + student.lastName.slice(1);
   });
 
-  console.log(getStudent);
+  console.log(getStudent.toArray());
 };
 
     
